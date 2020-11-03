@@ -4,22 +4,17 @@ First clone this repository to your laptop. You must have Node (> v4) and [yarn]
 
 ```bash
 cd ~/code/<your_github_nickname>
-git clone git@github.com:lewagon/webpack-boilerplate.git my-js-project
+git git@github.com:andrerferrer/474-dom-and-events.git my-js-project
 cd my-js-project
-rm -rf .git
+
 yarn install
 stt # Open this folder in Sublime Text
 ```
 
-Make sure you have `./node_modules/.bin` in your `$PATH`! This way you can run this:
-
+Run this to start your server:
 ```bash
-eslint lib
 webpack-dev-server
 ```
+You can then access http://localhost:8080 in your browser to see your app running.
 
-Once a file has been updated in Sublime, you can run it with:
-
-```bash
-node lib/01_types.js
-```
+Good Luck Have Fun
