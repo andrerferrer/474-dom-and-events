@@ -1,0 +1,14 @@
+.red {
+    color: red;
+}
+.green {
+color: green;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
